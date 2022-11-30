@@ -10,7 +10,7 @@ function App() {
       </h1>
 
       <a
-        href=""
+        href="./document.pdf"
         className="bg-indigo-500 py-5 px-8 rounded-xl font-bold text-white uppercase shadow-xl"
       >
         Descargar Constancia
