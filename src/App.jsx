@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaTwitter } from 'react-icons/fa';
 import Buttons from './components/Buttons';
 
 function App() {
@@ -18,10 +18,20 @@ function App() {
       </h1>
       <Buttons pdf="PDF" urlPDF={urlPDF} />
       <Buttons docx="DOCX" urlDOCX={urlDOCX} />
-      <p className="text-2xl font-medium">
-        Create by{' '}
-        <span className="font-bold text-indigo-700">@ivanosquis13</span>
-      </p>
+      <div>
+        <p className="text-2xl font-medium">
+          Create by{' '}
+          <span className="font-bold text-indigo-700">@ivanosquis13</span>
+        </p>
+        <div className="flex justify-around mt-5">
+          <a target="_blank" href="https://github.com/ivanosquis10">
+            <FaGithub size="50px" color="#171515" />
+          </a>
+          <a target="_blank" href="https://twitter.com/ivanosquis13">
+            <FaTwitter size="50px" color="#00acee" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
